@@ -9,6 +9,7 @@ namespace Msi
         static void Main(string[] args) 
         {
             Console.WriteLine("Bienvenido a la tienda");
+            Console.WriteLine();
             Persona cliente = new Persona();
             cliente.Registro();
             Productos cobro = new Productos();
